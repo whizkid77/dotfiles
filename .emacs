@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.dotfiles/emacs/")
+(add-to-list 'load-path "~/dotfiles/emacs/")
 
 (require 'handlebars-mode)
 
