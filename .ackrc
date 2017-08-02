@@ -1,0 +1,8 @@
+--ignore-dir=venv
+--ignore-dir=public/js/dev
+--ignore-dir=public/js/dist
+--ignore-dir=public/js/build
+--ignore-dir=bin/google-pla
+--ignore-dir=public/doc
+--type-set=DUMB=.css
+--noDUMB
