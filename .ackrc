@@ -4,5 +4,6 @@
 --ignore-dir=public/js/build
 --ignore-dir=bin/google-pla
 --ignore-dir=public/doc
+--ignore-file=is:phpunit-4.8.phar
 --type-set=DUMB=.css
 --noDUMB
