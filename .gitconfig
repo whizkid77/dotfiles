@@ -1,0 +1,18 @@
+[user]
+	name = James L
+	email = james@example.com
+[core]
+	editor = emacs
+[push]
+	default = simple
+
+[alias]
+gl = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+glme = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --branches=master,draft-*,james*
+b = branch -vv
+ff = pull --ff-only
+s = status
+d = diff
+co = checkout
+glmea = glme origin/master..
+glmeb = glme ..origin/master
