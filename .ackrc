@@ -5,5 +5,6 @@
 --ignore-dir=bin/google-pla
 --ignore-dir=public/doc
 --ignore-file=is:phpunit-4.8.phar
+--ignore-file=is:emails.log
 --type-set=DUMB=.css
 --noDUMB
